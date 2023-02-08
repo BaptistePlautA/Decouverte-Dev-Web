@@ -4,11 +4,11 @@ h2 {
   background-color: rgb(31, 48, 122);
 }
 
-body {
+body.ali {
   background-image:url('bg2.jpg');
 }
 
-img:hover {
+img.big:hover {
     -webkit-transform:scale(1.5); /* or some other value */
     transform:scale(1.5);
 }
@@ -16,6 +16,146 @@ img:hover {
 .hack {
   background-color: rgb(26, 26, 26);
   color:rgb(184, 184, 184);
-  display: flex; height: 10vh; align-items: center; justify-content: center;
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
 
+}
+
+.haut {
+ background-color: rgb(30, 10, 50);
+}
+
+div.chatG {
+ background-color: #dbcebe;
+ font-family: Arial;
+ height : 20em;
+ width : 35em;
+ margin-top : 2%;
+ border: 5px outset black;
+}
+
+div.chatD {
+ background-color: #dbcebe;
+ font-family: Arial;
+ height : 20em;
+ width : 35em;
+ margin-top : 2%;
+ margin-left : 70%;
+ border: 5px outset black;
+}
+
+body.modern {
+  background-color: #29313c;
+}
+
+div.modern {
+  font-size : 2em;
+  background-color: #c0c0c0;
+  border: 5px outset black;
+  height : 2em;
+  text-align: center;
+}
+
+div.bouton {
+  background-image:url('bg2.jpg');
+  border: 5px outset green;
+  height : 2em;
+  font-size : 2em;
+  margin-left : 45%;
+  margin-right : 45%;
+  margin-top : 5%;
+  text-align: center;
+}
+
+img.pp {
+  margin-left : 5%;
+  width: 15em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  border-radius: 100%;
+  border: 0.5em outset green;
+  align-items: center;
+  justify-content: center;
+}
+
+div.barreG {
+  position: relative;
+  background-color: #C1C3C4;
+  font-family: ui-serif;
+  height : 100em;
+  width : 18em;
+  margin-left : 2em;
+  border: 0.2em outset grey;
+  box-shadow: 0.5em 0.5em 0.5em black;
+}
+
+div.cv {
+  background-color: #C1C3C4;
+  font-family: ui-serif;
+  height : 90em;
+  width : 70em;
+  margin-top: 7em;
+  margin-left : 1em;
+  border: 0.2em outset green;
+  box-shadow: 0.2em 0.2em 1em lime;
+}
+
+body.cv {
+  background-image: url('https://i.gifer.com/1pX9.gif');
+  display:flex;
+}
+
+h3.cv {
+  font-size: 0.7em;
+  color: green;
+}
+
+h2.cv {
+  background-image:url('bg2.jpg');
+  width : 25em;
+}
+
+div.c1 {
+  background-color: #F0FFF0;
+  width : 35em;
+}
+
+div.c2 {
+  background-color: #F5FFFA;
+  width : 35em;
+  margin-top: 2em;
+  margin-left:35em;
+}
+
+div.c3 {
+  background-color: #F0FFFF;
+  width : 35em;
+  margin-top: 2em;
+}
+
+div.c4 {
+  background-color: #FFFAFA;
+  width : 35em;
+  margin-top: 2em;
+  margin-left:35em;
+}
+
+div.c5 {
+  background-image:url('bg2.jpg');
+  width : 35em;
+  margin-top: 2em;
+}
+
+div.c6 {
+  background-image:url('bg3.jpg');
+  width : 35em;
+  margin-top: 2em;
+  margin-left:35em;
+}
+
+div.gif {
+  margin-top: 15em;
+  margin-left: 27em;
 }
