@@ -1,0 +1,145 @@
+
+
+* {
+  font-family: 'Montserrat', serif;
+}
+
+img:hover{
+  cursor: pointer;
+}
+
+/* //////Début du HEADER////// */
+header {
+  background-color: #75be86;
+}
+
+
+/* //////Début du BODY////// */
+body {
+  background-color: #75be86;
+  
+}
+
+
+h1 {
+  font-size: 3.118rem;
+  background-image:url('images/pattern.png'); /*Source :https://www.vectorstock.com/royalty-free-vectors/salad-pattern-vectors*/
+  background-size: 40% auto;
+  margin-top:30px;
+  margin-left:60px;
+  margin-right:60px;
+  text-align: center;
+  color: #5d322f;
+  text-shadow: 2px 2px 2px rgba(59, 255, 10, 0.3);
+}
+
+h2 {
+  font-size: 2.118rem;
+  margin: 2rem;
+  text-align: center;
+  color: #5d322f;
+  text-shadow: 2px 2px 2px rgba(22, 231, 85, 0.3);
+}
+
+h4 {
+  font-size: 1.118rem;
+  text-align: left;
+  color: #5d322f;
+  text-shadow: 2px 2px 2px rgba(22, 231, 85, 0.3);
+}
+
+/* //////Début du FORM////// */
+form {
+  margin: 5em 20em 5em 20em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+label {
+  font-size: 1.618rem;
+  color: #5d322f;
+}
+
+select {
+  font-size: 1.5rem;
+  margin: 1rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #5d322f;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+button {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #5d322f;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out;
+}
+
+button:hover {
+  background-color: #077a07;
+}
+
+div.PokeGIF {
+  display:row;
+  padding: 40px 2px 2px 2px;
+}
+/* //////FIN du FORM////// */
+/* //////Fin du BODY////// */
+
+
+
+/* //////Début du FOOTER////// */
+footer {
+  background-size: 100% auto;
+  background-image:url('images/shop.gif'); /*CREDIT : https://dribbble.com/shots/5632782-Ramen*/
+  color: #fff;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-left:100x;
+  padding-right:10px;
+  height:auto;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  box-shadow: 5px -6px 10px #070706;
+}
+
+
+#logo {
+  width: 150px;
+  box-shadow: 1px 1px 5px #888888;
+}
+
+img.RS {
+  width: 50px;
+  height: 50px;
+}
+
+img.RS:hover {
+  transform: scale(1.1);
+}
+
+footer div {
+  flex: 1; 
+}
+
+footer div:nth-child(2) {
+  margin: 5px 25px; 
+}
+/* //////Fin du FOOTER////// */

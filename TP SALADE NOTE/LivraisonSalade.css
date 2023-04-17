@@ -1,0 +1,51 @@
+
+
+div.LeftBox {
+    
+    justify-content: flex-start;
+    align-items: center;
+    height: auto;
+    width: auto;
+    padding: 5px 5px 5px 5px;
+    margin : 2em 2em 2em 2em;
+    color:#e0e0e0;  
+    border: 7px solid #5d322f;
+    border-radius: 2em; 
+
+}
+
+div.ResumeInfo{
+    margin-top: 5px;
+    color:#e0e0e0;  
+    border-radius: 4px; 
+    padding: 55px; 
+    background-image:url('images/street.gif'); /*CREDIT : https://dribbble.com/shots/14900099-Hideaway Kenze Wee*/
+    background-size: cover; 
+    background-position: center;
+    box-shadow: 5px 5px 10px #070706;
+    height:auto;
+    width: 700px;
+}
+
+div.ResumePoke{
+    color:#e0e0e0;  
+    border-radius: 4px; 
+    padding: 55px; 
+    background-image:url('images/street.gif'); /*CREDIT : https://dribbble.com/shots/14900099-Hideaway Kenze Wee*/
+    background-size: cover; 
+    box-shadow: 5px 5px 10px #070706;
+    height:auto;
+    width: 700px;
+}
+
+div.container{
+    display:row;
+    justify-content: center; /* Centre les éléments horizontalement */
+    align-items: center;
+}
+
+p.Resume{
+    font-size: 1.1em;
+    border-radius: 4px; 
+    background-color: rgba(0,0,0,0.5);
+}

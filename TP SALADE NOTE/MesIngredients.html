@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Mon Site de Pokébowl">
+    <meta name="author" content="PLAUT-AUBRY Baptiste">
+    <link rel="stylesheet" href="MaSalade.css">
+    <link rel="stylesheet" href="MesIngredients.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <title>Mes Ingrédients - Votre Propre Pokébowl</title>
+  </head>
+
+<!-- MON HEADER -->
+<header>
+  <h1>POKEBOWL GO !</h1>
+  <h2>Sélectionnez vos ingrédients :</h2> <br>
+</header>
+
+<!-- MON BODY -->
+<body>
+<div class="container1">
+    <div class="Pokebowl">
+        <div id="fond">
+            <h3>Poissons :</h3> 
+            <div class="choix">
+                <img id="saumon" src="images/saumon.png"> <br>
+                <span>Saumon</span>
+            </div>
+            <div class="choix">
+                <img id="thon" src="images/thon.png"> <br>
+                <span>Thon</span>
+            </div>
+            <div class="choix">
+                <img id="poulpe" src="images/poulpe.png"> <br>
+                <span>Poulpe</span>
+            </div>
+            <h3>Légumes :</h3>
+            <div class="choix">
+                <img id="concombre" src="images/concombre.png"> <br>
+                <span>Concombre</span>
+            </div>
+            <div class="choix">
+                <img id="avocat" src="images/avocat.png"> <br>
+                <span>Avocat</span>
+            </div>
+            <div class="choix">
+                <img id="chou" src="images/chou.png"> <br>
+                <span>Chou Rouge</span>
+            </div>
+            <div class="choix">
+                <img id="carotte" src="images/carotte.png"> <br>
+                <span>Carottes</span>
+            </div>
+            <h3>Fruits :</h3>
+            <div class="choix">
+                <img id="mangue" src="images/mangue.png"> <br>
+                <span>Mangue</span>
+            </div>
+            <div class="choix">
+                <img id="ananas" src="images/ananas.png"> <br>
+                <span>Ananas</span>
+            </div>
+            <div class="choix">
+                <img id="kiwi" src="images/kiwi.png"> <br>
+                <span>Kiwi</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="MyPokebowl">
+        <h3><center>Ce que je vais retrouver dans ma Pokebowl : <br>
+        
+        <span id="IngredientsRestants">0</span>/<span id=NbIngredients>X</span>
+        
+        </center></h3>  
+         
+         <form id="bowl" action="LivraisonSalade.html" method="GET">
+            <img id="bowl" src="images/bowl.png"> <br>
+            <button id="myButton" type="submit">Livrer votre Pokebowl</button>
+            <!-- utilisation des hidden pour transmettre les ingrédients sélectionnés -->
+            <input type="hidden" name="1" id="1" value="">
+            <input type="hidden" name="2" id="2" value="">
+            <input type="hidden" name="3" id="3" value="">
+            <input type="hidden" name="4" id="4" value="">
+            <input type="hidden" name="5" id="5" value="">
+            <input type="hidden" name="6" id="6" value="">
+        </form>
+         <script type="text/javascript" src="SelectionSalade.js"></script>
+    </div>
+</div>
+</body>
+
+<!-- MON FOOTER -->
+<footer>
+    <div>
+      <img class="RS" src="images/youtube.png" onclick="window.location.href='https://www.youtube.com/watch?v=dUlTSTSwZH0'">
+      <img class="RS" src="images/instagram.png" onclick="window.location.href='https://www.youtube.com/watch?v=jH6_0o5c-_o'">
+      <img class="RS" src="images/twitter.png" onclick="window.location.href='https://www.youtube.com/watch?v=EBK9fmuvpSE'">
+    </div>
+
+    <div>
+      <p>CyTech : Tous Droits Réservés</p>
+      <p>MaSalade | 25 Rue de la Salade, Pau</p>
+      <p>MaSalade239@pro.yahooh.br</p>
+    </div>
+    
+    <div>
+        <img src="images/logo.png" id="logo" alt="CyTech" onclick="window.location.href='https://cytech.cyu.fr/cy-tech-pau'">
+    </div>
+  </div>
+</footer>
+</html>
